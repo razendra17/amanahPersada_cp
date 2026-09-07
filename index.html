@@ -1610,29 +1610,6 @@
         });
 
     });
-
-
-    /* ==========================================
-       CONTACT REVEAL
-    ========================================== */
-
-    gsap.from("#contact .section-reveal", {
-
-        y: 50,
-        opacity: 0,
-        duration: 1,
-        stagger: .2,
-
-        scrollTrigger: {
-
-            trigger: "#contact",
-            start: "top 75%"
-
-        }
-
-    });
-
-
     /* ==========================================
        ACTIVE NAV LINK
     ========================================== */
@@ -1665,7 +1642,7 @@
         });
 
     });
-
+ScrollTrigger.refresh();
 
 </script>
 
