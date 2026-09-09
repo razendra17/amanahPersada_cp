@@ -1,4 +1,4 @@
 user-agent: *
 Allow: /
 
-sitemap: https://amanahpersada.vercel.app
+sitemap: https://amanahpersada.vercel.app/sitemap.xml
